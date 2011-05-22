@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout 
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content">
+		<EditText 
+			android:id="@+id/Url01" 
+			android:hint="@string/Url01"
+			android:textSize="14dp"
+			android:inputType="textUri" 
+			android:lines="1" 
+			android:layout_height="wrap_content" 
+			android:layout_width="wrap_content" 
+			android:layout_weight="1"></EditText>
+		<Button 
+			android:id="@+id/getUrlButton"
+	        android:text="@string/getUrlButton"
+    	    android:width="50dp"
+    	    android:layout_height="wrap_content" 
+    	    android:layout_width="wrap_content"></Button>
+	</LinearLayout>
+    <ListView 
+    	android:id="@+id/List01"
+    	android:layout_width="fill_parent"   
+       	android:layout_height="wrap_content"></ListView>  
+</LinearLayout>

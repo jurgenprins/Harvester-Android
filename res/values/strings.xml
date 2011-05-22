@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Harvester</string>
+    <string name="getUrlButton">GET</string>
+    <string name="Url01">Listing URL</string>
+    <string name="title_send_harvester">Harvester</string>
+    <string name="create_alert">Create Alert</string>
+    <string name="list_alerts">List Alerts</string>
+</resources>
